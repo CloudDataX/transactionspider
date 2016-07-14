@@ -11,4 +11,8 @@ import scrapy
 class TransactionspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    stockCode = scrapy.Field()
+    link = scrapy.Field()
+    saveTime = scrapy.Field()
+    
     pass
