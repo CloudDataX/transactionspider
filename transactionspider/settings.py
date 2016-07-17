@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for transactionspider project
+# Scrapy settings for transaction project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -18,7 +18,7 @@ USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
 RETRY_TIMES=0
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'transactionspider (+http://www.yourdomain.com)'
+#USER_AGENT = 'transaction (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -49,7 +49,7 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'transactionspider.middlewares.MyCustomSpiderMiddleware': 543,
+#    'transaction.middlewares.MyCustomSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
@@ -67,7 +67,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'transactionspider.pipelines.SomePipeline': 300,
+#    'transaction.pipelines.SomePipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

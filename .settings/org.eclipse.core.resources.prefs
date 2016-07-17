@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//transactionspider/items.py=utf-8
 encoding//transactionspider/middlewares.py=utf-8
+encoding//transactionspider/pipelines.py=utf-8
 encoding//transactionspider/settings.py=utf-8
 encoding//transactionspider/spiders/transactionspider.py=utf-8
